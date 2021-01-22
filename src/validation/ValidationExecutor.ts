@@ -199,7 +199,8 @@ export class ValidationExecutor {
     if (
       (value === null || value === undefined) &&
       this.validatorOptions &&
-      this.validatorOptions.skipMissingProperties === true
+      this.validatorOptions.skipMissingProperties === true &&
+      !object.hasOwnProperty(propertyName)
     ) {
       return;
     }

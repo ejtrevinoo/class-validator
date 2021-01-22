@@ -14,7 +14,7 @@ coverage/**
 .env
 
 # Dependency directories
-node_modules
+# node_modules
 
 # MacOS related files
 *.DS_Store
@@ -42,7 +42,7 @@ $RECYCLE.BIN/
 
 # Compilation output folders
 dist/
-build/
+# build/
 tmp/
 out-tsc/
 temp
